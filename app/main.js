@@ -7,13 +7,13 @@ define(["Petri", "three"], function main (Petri, THREE) {
         frustumVerticalFov  : 40,
         frustumNearPlane    : .01,
         frustumFarPlane     : 20000,
-        minFrameDuration    : 300,
-        sporesAt            : [
-            [-0.5, -0.5, -0.5],
-            [0, -0.5, -0.5],
-            [0, 0, 0],
-            [0.5, 0.5, 0.5],
-            [0.5, 0.5, 0]
-        ]
+        minFrameDuration    : 300
+        // sporesAt            : [
+        //     [-0.5, -0.5, -0.5],
+        //     [0, -0.5, -0.5],
+        //     [0, 0, 0],
+        //     [0.5, 0.5, 0.5],
+        //     [0.5, 0.5, 0]
+        // ]
     });
 });
