@@ -9,9 +9,11 @@ define(["Petri", "three"], function main (Petri, THREE) {
         frustumFarPlane     : 20000,
         minFrameDuration    : 300,
         sporesAt            : [
-            [0, 0, 0],
             [-0.5, -0.5, -0.5],
-            [0.5, 0.5, 0.5]
+            [0, -0.5, -0.5],
+            [0, 0, 0],
+            [0.5, 0.5, 0.5],
+            [0.5, 0.5, 0]
         ]
     });
 });
