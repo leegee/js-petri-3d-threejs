@@ -1,13 +1,13 @@
 {
-  "name": "js-life-3d-threejs",
-  "description": "Conway's Game Of Life in 3D",
+  "name": "js-petri-3d-threejs",
+  "description": "Experimental Petri Dish",
   "version": "0.0.1",
   "engines": {
     "node": ">= 0.8.0"
   },
   "repository" : {
     "type" : "git",
-     "url" : "https://github.com/leegee/js-life-3d-threejs.git"
+     "url" : "https://github.com/leegee/js-petri-3d-threejs.git"
   },
   "author": {
     "name": "Lee Goddard",

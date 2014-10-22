@@ -1,6 +1,6 @@
-# js-life-3d-threejs
+# js-petri-3d-threejs
 
-Conway's Game of Life in 3D.
+An experimental petri dish with threejs and requirejs
 
 ## Getting Started
 
