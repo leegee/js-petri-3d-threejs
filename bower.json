@@ -1,0 +1,39 @@
+{
+  "name": "js-life-3d-threejs",
+  "version": "0.0.1",
+  "homepage": "https://github.com/leegee/js-life-3d-threejs",
+  "authors": [
+    "lee <bower@leegoddard.net>"
+  ],
+  "license": "MIT",
+
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".editorconfig",
+    ".bowerrc",
+    ".gitignore",
+    ".jshintignore",
+    ".jshintrc",
+    "bower.json",
+    "gruntfile.js",
+    "package.json",
+    "README.md"  ],
+
+  "dependencies": {
+    "requirejs": "~2.1.5",
+    "qunit": "~1.11.0",
+    "threejs": "*",
+    "threejs-controls": "*",
+    "Detector": "https://raw2.github.com/mrdoob/three.js/master/examples/js/Detector.js",
+    "OrbitControls": "https://raw2.github.com/mrdoob/three.js/master/examples/js/controls/OrbitControls.js",
+    "dat-gui": "~0.5.0",
+    "stats.js": "*",
+    "tweenjs": "*",
+    "canvg": "~1.3.0"
+  }
+}
+

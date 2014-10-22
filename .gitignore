@@ -1,0 +1,7 @@
+*~
+.gitignore
+node_modules/
+bower_components/
+temp/
+dist/
+github_page/
