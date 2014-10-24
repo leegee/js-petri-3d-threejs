@@ -4,12 +4,12 @@ define(["Petri", "three"], function main (Petri, THREE) {
         fullscreen          : true,
         screenWidth         : window.innerWidth,
         screenHeight        : window.innerHeight,
-        sporesAt            : [
-            [-0.5, -0.5, -0.5],
-            [0, -0.5, -0.5],
-            [0, 0, 0],
-            [0.5, 0.5, 0.5],
-            [0.5, 0.5, 0]
-        ]
+        // sporesAt            : [
+        //     [-0.5, -0.5, -0.5],
+        //     [0, -0.5, -0.5],
+        //     [0, 0, 0],
+        //     [0.5, 0.5, 0.5],
+        //     [0.5, 0.5, 0]
+        // ]
     });
 });
