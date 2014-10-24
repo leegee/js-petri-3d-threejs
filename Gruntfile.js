@@ -121,7 +121,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-connect');
 
   // Default task.
-  grunt.registerTask('default', ['jshint', 'qunit', 'clean', 'requirejs', 'concat', 'uglify']);
+  grunt.registerTask('default', ['jshint',
+    // 'qunit',
+     'clean', 'requirejs', 'concat', 'uglify']);
   grunt.registerTask('test', ['jshint', 'qunit']);
   grunt.registerTask('preview', ['connect:development']);
   grunt.registerTask('preview-live', ['default', 'connect:production']);
