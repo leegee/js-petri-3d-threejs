@@ -1,4 +1,4 @@
-define(["Petri", "three"], function main (Petri, THREE) {
+define(["lib/Petri", "three"], function main (Petri, THREE) {
 
     new Petri({
         fullscreen          : true,
