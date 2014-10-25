@@ -7,7 +7,12 @@
         canvas { width: 100%; height: 100% }
         body { margin: 0; padding: 0; }
     </style>
-    <script data-main="lib/config" src="bower_components/requirejs/require.js"></script>
+    <script src="bower_components/requirejs/require.js"></script>
+    <script>
+    require(['lib/config'], function () {
+        require(['app/receptor']);
+    });
+    </script>
 </head>
 <body>
 </body>
